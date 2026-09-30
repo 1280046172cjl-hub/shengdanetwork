@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# --- Crawl guidance ---------------------------------------------------------
+# All public pages of this website may be indexed.
+# No administrative or private areas exist on this domain.
+
+Sitemap: https://shengdanetwork.sbs/sitemap.xml
