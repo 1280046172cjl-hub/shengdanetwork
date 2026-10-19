@@ -11,7 +11,7 @@
   var ZH = {
     /* ------------------------------- Header ------------------------------- */
     "nav.about": "关于我们",
-    "nav.development": "研发方向",
+    "nav.games": "游戏",
     "nav.support": "开发者支持",
     "nav.privacy": "隐私政策",
     "nav.menu": "菜单",
@@ -25,38 +25,29 @@
     "footer.terms": "服务条款",
     "footer.deletion": "账号与数据删除",
     "footer.note": "本网站为 shengdanetworktechnology 的官方企业信息页面。",
+    "footer.langNote":
+      "本页面以英文版本为正式版本，中文译文仅供参考；如中英文存在歧义，以英文版本为准。",
 
     /* ------------------------------- Home --------------------------------- */
-    "home.badge": "移动游戏项目研发中",
+    "home.badge": "独立移动游戏工作室",
     "home.title": "创造下一代<span class=\"grad-text\">移动娱乐体验</span>",
     "home.lead":
       "shengdanetworktechnology 是一家专注于移动游戏研发的独立团队，由武汉盛达网络科技有限公司运营。",
     "home.p2": "我们专注于打造创新、有趣的移动娱乐体验。",
-    "home.p3": "目前原创移动游戏项目正在进行开发与内部测试。",
-    "home.cta1": "了解团队",
+    "home.p3": "我们的首款作品 Tribe Defense: Monster Era 已于 2026 年发行于 Android 平台。",
+    "home.cta1": "查看游戏",
     "home.cta2": "开发者支持",
     "home.meta1": "成立于 2022 年",
     "home.meta2": "独立研发团队",
     "home.meta3": "中国 · 武汉",
-    "home.v1": "原型构建中",
-    "home.v2": "移动平台",
-    "home.v3": "研发进行中",
+    "home.v1": "Android 平台",
+    "home.v2": "2026 年发行",
+    "home.v3": "Tribe Defense",
 
-    "stage.eyebrow": "研发状态",
-    "stage.title": "研发阶段",
-    "stage.h": "早期研发阶段",
-    "stage.p":
-      "团队目前正在进行玩法设计、原型开发、技术测试，以及为未来移动游戏产品发布做准备。",
-    "stage.p2":
-      "目前尚未发布任何公开版本，所有工作均在内部进行，重点是先打好技术与设计基础。",
-    "stage.f1t": "玩法设计",
-    "stage.f1d": "探索核心玩法循环与原创玩法概念。",
-    "stage.f2t": "原型开发",
-    "stage.f2d": "构建可玩原型，用于验证设计方向与手感。",
-    "stage.f3t": "技术测试",
-    "stage.f3d": "验证性能表现、运行稳定性与设备兼容性。",
-    "stage.f4t": "发布准备",
-    "stage.f4d": "为未来在 Google Play 发布移动游戏产品做准备。",
+    /* ------------------------------- Games -------------------------------- */
+    "games.eyebrow": "产品",
+    "games.title": "我们的游戏",
+    "games.lead": "以下为我们已发行的移动游戏作品。",
 
     "about.eyebrow": "关于我们",
     "about.title": "专注于原创移动游戏的独立研发团队",
@@ -80,22 +71,19 @@
     "company.k3": "成立年份",
     "company.k4": "官方网站",
     "company.k5": "注册及办公地址",
+    "company.k6": "邓白氏编码",
 
-    "status.eyebrow": "研发进度",
-    "status.title": "当前项目进度",
-    "status.lead": "公司目前处于早期研发阶段，尚未发布任何游戏产品。",
-    "status.i1t": "概念设计",
-    "status.i1s": "已完成",
-    "status.i1d": "核心概念与设计方向已经确定。",
-    "status.i2t": "原型开发",
-    "status.i2s": "进行中",
-    "status.i2d": "可玩原型正在构建与反复迭代中。",
-    "status.i3t": "内部测试",
-    "status.i3s": "准备中",
-    "status.i3d": "正在准备内部测试版本与测试流程。",
-    "status.i4t": "Google Play 发布",
-    "status.i4s": "即将推出",
-    "status.i4d": "发布计划将在准备就绪后另行公布。",
+    /* ---------------------------- Compliance ------------------------------ */
+    "trust.eyebrow": "合规",
+    "trust.title": "合规与法律信息",
+    "trust.lead":
+      "本网站所列开发者信息，与我们在 Google Play 的开发者账号及已发布的隐私政策保持一致。",
+    "trust.c1t": "隐私政策",
+    "trust.c1d": "我们在游戏中如何处理数据。",
+    "trust.c2t": "服务条款",
+    "trust.c2d": "适用于我们游戏的条款。",
+    "trust.c3t": "账号与数据删除",
+    "trust.c3d": "可随时申请删除您的数据。",
 
     "support.eyebrow": "开发者支持",
     "support.title": "联系与支持",
@@ -105,6 +93,7 @@
     "support.email": "电子邮箱",
     "support.phone": "联系电话",
     "support.website": "官方网站",
+    "contact.team": "开发者支持团队",
 
     /* --------------------- Company identity (bilingual) ---------------------
        Registered entity name and address are proper nouns: they are stored in
@@ -186,7 +175,7 @@
     "pv.s5p2":
       "如果我们发现无意中收集了儿童的个人信息，将采取合理措施立即予以彻底删除。",
     "pv.s5p3":
-      "如您认为儿童向我们提供了个人信息，请立即通过 1280046172cjl@gmail.com 联系我们。我们严格遵守 Google Play 家庭政策（Families Policy）及相关儿童隐私保护法规。",
+      "如您认为儿童向我们提供了个人信息，请立即通过 shengdanetworktechnology@gmail.com 联系我们。我们严格遵守 Google Play 家庭政策（Families Policy）及相关儿童隐私保护法规。",
 
     "pv.s6t": "数据安全",
     "pv.s6p1":
@@ -203,7 +192,7 @@
       "您可以随时通过移动设备的“设置 → 应用管理 → 选择对应游戏（如 Tribe Defense: Monster Era）→ 清除存储空间 / 缓存”，或直接卸载本应用，立即删除存储在您设备本地的所有游戏进度与数据。",
     "pv.s7o2t": "服务器及关联数据删除请求",
     "pv.s7o2d":
-      "您也可以直接点击本页面底部的“账号与数据请求”链接，或发送邮件至 1280046172cjl@gmail.com（邮件标题请注明：“Data Deletion Request - 游戏名称”）。我们将在收到请求后的 7 个工作日内彻底删除与您相关的所有记录，并向您发送确认邮件。",
+      "您也可以直接点击本页面底部的“账号与数据请求”链接，或发送邮件至 shengdanetworktechnology@gmail.com（邮件标题请注明：“Data Deletion Request - 游戏名称”）。我们将在收到请求后的 7 个工作日内彻底删除与您相关的所有记录，并向您发送确认邮件。",
 
     /* ------------------------------- Terms -------------------------------- */
     "tm.title": "服务条款",
@@ -223,7 +212,7 @@
     "tm.s2p2":
       "您同意不进行以下行为：对本应用进行反向工程、反编译或反汇编；复制、修改、分发或出售本应用的任何部分；将本应用用于任何违法或未经授权的用途；以任何方式干扰或破坏本应用及服务器正常运行。",
     "tm.s2p3":
-      "我们的应用目前处于研发阶段，部分功能可能尚未开放、变更或调整，具体以实际发布版本为准。",
+      "我们的应用持续更新维护中。部分功能可能新增、变更或调整，具体以最新发布版本为准。",
 
     "tm.s3t": "用户责任",
     "tm.s3p1":
@@ -251,7 +240,7 @@
     "tm.s6p2":
       "对于因使用或无法使用我们的服务而产生的任何间接、附带或后果性损失，我们不承担责任。",
     "tm.s6p3":
-      "此外，由于我们的游戏产品目前处于研发阶段，相关功能、发布时间与内容均可能发生变化。",
+      "此外，随着我们持续更新产品，游戏功能、内容与可获取性均可能发生变化。",
 
     "tm.s7t": "联系信息",
     "tm.s7p":
@@ -261,34 +250,35 @@
     "dl.title": "账号与数据请求",
     "dl.lead":
       "本页面说明如何申请删除账号以及如何提出个人数据删除请求。",
-    "dl.updated": "最后更新：2026 年 9 月 30 日",
+    "dl.updated": "最后更新：2026 年 10 月 19 日",
+    "dl.appsT": "本页面适用的应用",
 
     "dl.s1t": "当前状态",
     "dl.s1p1":
-      "shengdanetworktechnology 目前处于早期研发阶段，尚未发布任何游戏产品，因此目前没有正在运行的账号系统。",
+      "我们的游戏无需注册账号即可游玩，游戏进度与设置保存在您的设备本地。如果您曾通过电子邮件与我们联系，或游戏存储了与您设备相关的数据，您可以随时按以下步骤申请删除。",
     "dl.s1p2":
-      "如果未来我们的应用提供账号系统，本页面将同步更新，用户可以通过电子邮件申请删除账号或删除相关数据。",
+      "我们通过电子邮件受理删除请求，提交请求无需注册账号。",
 
-    "dl.s2t": "您可以申请的请求",
-    "dl.s2l1t": "删除账号",
+    "dl.s2t": "您可以提交的请求",
+    "dl.s2l1t": "数据删除",
     "dl.s2l1d":
-      "如果您未来使用我们的应用创建了账号，可以申请注销并删除该账号。",
-    "dl.s2l2t": "数据删除请求",
+      "您可以申请删除我们持有的与您相关的个人数据。",
+    "dl.s2l2t": "信息查询",
     "dl.s2l2d":
-      "您可以申请删除我们持有的与您相关的个人数据，或要求我们提供相关信息说明。",
+      "您可以要求我们说明持有哪些与您相关的信息。",
 
     "dl.s3t": "如何提交请求",
     "dl.s3p1":
-      "请使用您注册时使用的邮箱（如有），向下方邮箱发送邮件，并在邮件中说明以下内容：",
-    "dl.s3u1": "邮件主题请注明“账号删除请求”或“数据删除请求”；",
-    "dl.s3u2": "请写明相关的应用名称以及您的账号标识（如有）；",
+      "请向下方邮箱发送邮件；如您此前与我们联系过，建议使用同一邮箱，并在邮件中说明以下内容：",
+    "dl.s3u1": "邮件主题请注明“数据删除请求”；",
+    "dl.s3u2": "请写明相关的应用名称，以及游戏内使用的 Google Play 账号（如相关）；",
     "dl.s3u3": "请简要说明您的请求内容，便于我们核实与处理。",
     "dl.s3p2":
-      "为保护您的账号安全，我们可能需要您补充必要信息以验证身份。",
+      "为保护数据安全，我们可能需要您补充必要信息以核实身份。",
 
     "dl.s4t": "处理说明",
     "dl.s4p1":
-      "我们会在收到请求并完成身份核实后，于合理期限内（通常不超过 30 日）处理您的请求。",
+      "我们会在收到请求并完成身份核实后，于 7 个工作日内处理您的请求。",
     "dl.s4p2":
       "相关数据将被删除或匿名化处理。仅在法律法规要求保留的情形下，我们才会在必要期限内保留特定信息（例如法律、税务或安全合规所要求的数据）。",
 
@@ -414,6 +404,125 @@
     }
   }
 
+  /* ------------------------- Product catalogue ---------------------------- */
+  /* Everything product-related is rendered from window.SDT_CATALOG
+     (assets/games.js). The homepage cards, the privacy policy app list and the
+     deletion page list therefore can never disagree with each other. */
+  var STATUS_LABEL = {
+    live: { en: "Available on Google Play", zh: "已在 Google Play 上架" },
+    delisted: { en: "Not currently listed", zh: "当前未在架上" },
+    "in-dev": { en: "In development", zh: "研发中" }
+  };
+
+  var PKG_LABEL = { en: "Package Identifier", zh: "包名" };
+
+  function esc(value) {
+    return String(value == null ? "" : value).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function pick(bilingual, lang) {
+    if (bilingual == null) return "";
+    if (typeof bilingual === "string") return bilingual;
+    return bilingual[lang] != null ? bilingual[lang] : bilingual.en || "";
+  }
+
+  function initials(title) {
+    var parts = String(title || "").replace(/[^A-Za-z0-9 ]/g, " ").split(/\s+/);
+    var out = "";
+    for (var i = 0; i < parts.length && out.length < 2; i++) {
+      if (parts[i]) out += parts[i].charAt(0).toUpperCase();
+    }
+    return out || "?";
+  }
+
+  function catalogGames() {
+    var catalog = window.SDT_CATALOG;
+    return catalog && catalog.games instanceof Array ? catalog.games : [];
+  }
+
+  function renderGameCard(game, lang) {
+    var state = STATUS_LABEL[game.status] || STATUS_LABEL["in-dev"];
+    var meta = [game.packageId, game.platform, game.firstRelease]
+      .filter(Boolean)
+      .map(esc)
+      .join(" · ");
+
+    /* A store button is only rendered for games that are actually listed —
+       this is what keeps a delisted title from becoming a dead link. */
+    var button =
+      game.status === "live" && game.storeUrl
+        ? '<a class="btn btn-primary game-btn" href="' +
+          esc(game.storeUrl) +
+          '" target="_blank" rel="noopener">Google Play</a>'
+        : "";
+
+    return (
+      '<article class="panel game-card">' +
+      '<div class="game-head">' +
+      '<div class="game-icon" aria-hidden="true">' +
+      esc(initials(game.title)) +
+      "</div>" +
+      '<div class="game-head-text">' +
+      '<h3 class="game-title">' +
+      esc(game.title) +
+      "</h3>" +
+      '<p class="game-meta">' +
+      meta +
+      "</p>" +
+      "</div>" +
+      "</div>" +
+      (game.tagline
+        ? '<p class="game-tagline">' + esc(pick(game.tagline, lang)) + "</p>"
+        : "") +
+      '<div class="game-foot">' +
+      '<span class="game-badge is-' +
+      esc(game.status) +
+      '">' +
+      esc(pick(state, lang)) +
+      "</span>" +
+      button +
+      "</div>" +
+      "</article>"
+    );
+  }
+
+  function renderCatalog(lang) {
+    var games = catalogGames();
+
+    var grids = document.querySelectorAll("[data-games]");
+    for (var i = 0; i < grids.length; i++) {
+      /* Without data the static markup already says the right thing, so never
+         replace it with an empty state — a missing games.js must not wipe the
+         product card off the homepage. */
+      if (!games.length) continue;
+      var cards = "";
+      for (var j = 0; j < games.length; j++) {
+        cards += renderGameCard(games[j], lang);
+      }
+      grids[i].innerHTML = cards;
+    }
+
+    var lists = document.querySelectorAll("[data-games-list]");
+    for (var k = 0; k < lists.length; k++) {
+      if (!games.length) continue; /* keep the static fallback text */
+      var items = "";
+      for (var m = 0; m < games.length; m++) {
+        var game = games[m];
+        items +=
+          "<li><strong>" +
+          esc(game.title) +
+          "</strong> — " +
+          esc(pick(PKG_LABEL, lang)) +
+          ": <code>" +
+          esc(game.packageId) +
+          "</code></li>";
+      }
+      lists[k].innerHTML = items;
+    }
+  }
+
   function setLang(lang) {
     currentLang = lang === "zh" ? "zh" : "en";
     var html = document.documentElement;
@@ -423,6 +532,7 @@
 
     applyText(currentLang);
     applySwitchState(currentLang);
+    renderCatalog(currentLang);
 
     if (window.lucide && typeof window.lucide.createIcons === "function") {
       window.lucide.createIcons();

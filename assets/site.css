@@ -606,6 +606,7 @@ h4 {
 
 .hero-title {
   margin: 22px 0 0;
+  text-wrap: balance;
 }
 
 .hero-desc {
@@ -1151,6 +1152,184 @@ h4 {
   font-size: 14px;
   color: var(--muted);
   line-height: 1.62;
+}
+
+/* --------------------------------------------------------------------------
+   Product catalogue (rendered from assets/games.js)
+   -------------------------------------------------------------------------- */
+.game-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+}
+
+@media (min-width: 860px) {
+  .game-grid {
+    gap: 20px;
+  }
+}
+
+.game-card {
+  padding: 24px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.game-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.game-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #dbe6ff;
+  background: linear-gradient(
+    145deg,
+    rgba(91, 140, 255, 0.28),
+    rgba(168, 85, 247, 0.2)
+  );
+  border: 1px solid rgba(91, 140, 255, 0.35);
+}
+
+.game-head-text {
+  min-width: 0;
+}
+
+.game-title {
+  font-size: 1.06rem;
+  margin: 0 0 6px;
+  color: #eef3ff;
+}
+
+.game-meta {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--muted-2);
+  letter-spacing: 0.02em;
+  word-break: break-word;
+}
+
+.game-tagline {
+  margin: 0;
+  font-size: 14.5px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.game-foot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.game-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 5px 11px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+}
+
+.game-badge.is-live {
+  color: #34d399;
+  background: rgba(52, 211, 153, 0.08);
+}
+
+.game-badge.is-delisted {
+  color: #a7b4c8;
+  background: rgba(148, 163, 184, 0.08);
+}
+
+.game-badge.is-in-dev {
+  color: #7ea6ff;
+  background: rgba(91, 140, 255, 0.1);
+}
+
+.game-btn {
+  padding: 8px 16px;
+  font-size: 13.5px;
+}
+
+.game-empty {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14.5px;
+}
+
+/* --------------------------------------------------------------------------
+   Compliance cards
+   -------------------------------------------------------------------------- */
+.trust-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 760px) {
+  .trust-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+}
+
+.trust-card {
+  padding: 24px;
+  display: block;
+  text-decoration: none;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.trust-card svg {
+  width: 20px;
+  height: 20px;
+  color: var(--brand);
+  margin-bottom: 16px;
+}
+
+.trust-card h3 {
+  font-size: 1rem;
+  margin: 0 0 8px;
+  color: #eef3ff;
+}
+
+.trust-card p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.trust-card:hover {
+  border-color: rgba(91, 140, 255, 0.42);
+  transform: translateY(-2px);
+}
+
+/* --------------------------------------------------------------------------
+   Footer language notice
+   -------------------------------------------------------------------------- */
+.footer-lang-note {
+  margin-top: 10px;
+  flex-basis: 100%;
+  max-width: 780px;
+  font-size: 12px;
+  line-height: 1.6;
 }
 
 /* --------------------------------------------------------------------------
