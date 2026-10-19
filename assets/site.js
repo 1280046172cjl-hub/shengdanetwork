@@ -117,68 +117,93 @@
     /* ------------------------------ Privacy ------------------------------- */
     "pv.title": "隐私政策",
     "pv.lead":
-      "本隐私政策说明 shengdanetworktechnology 如何处理用户信息。",
-    "pv.updated": "最后更新：2026 年 9 月 30 日",
+      "本隐私政策说明 shengdanetworktechnology（武汉盛达网络科技有限公司）如何收集、使用和保护用户信息。本政策适用于我们的官方网站，以及由我们开发并在 Google Play 上分发的所有移动游戏与应用程序。",
+    "pv.updated": "最后更新：2026 年 10 月 19 日",
 
     "pv.s1t": "引言",
     "pv.s1p1":
-      "本隐私政策说明 shengdanetworktechnology（以下称“我们”）如何收集、使用和保护与我们提供的移动应用、网站及相关服务有关的信息。",
+      "本隐私政策说明 shengdanetworktechnology（以下称“我们”）如何处理与我们提供的移动游戏应用（统称“应用”或“游戏”）、官方网站及相关服务有关的信息。",
     "pv.s1p2":
-      "在您使用我们的服务时，即表示您已阅读并同意本隐私政策所述的做法。如果您不同意本政策，请停止使用我们的服务。",
+      "在您安装、运行我们的游戏或使用相关服务时，即表示您已阅读并同意本隐私政策所述的做法。如果您不同意本政策，请停止使用我们的应用及服务。",
 
-    "pv.s2t": "开发者信息",
+    "pv.s2t": "开发者信息与适用应用清单",
     "pv.s2p":
-      "本政策由以下法律实体发布并负责执行：",
-    "pv.s2d": "开发者名称",
-    "pv.s2l": "法律实体",
-    "pv.s2e": "联系邮箱",
-    "pv.s2a": "注册地址",
+      "本政策由以下法律实体发布并负责执行（所有主体信息均与邓白氏 D-U-N-S 记录一致）：",
+    "pv.s2k1": "开发者账号名称",
+    "pv.s2k2": "法律实体",
+    "pv.s2k3": "邓白氏编码",
+    "pv.s2k4": "联系邮箱",
+    "pv.s2k5": "联系电话",
+    "pv.s2k6": "注册地址",
+    "pv.s2k7": "官方网站",
+    "pv.s2appsT": "适用应用清单",
+    "pv.s2appsP":
+      "本隐私政策直接适用于我们旗下的以下移动游戏应用（我们将随新游戏发布持续更新此列表）：",
+    "pv.s2appsLbl": "包名",
 
-    "pv.s3t": "信息收集",
+    "pv.s3t": "信息收集与使用",
     "pv.s3p1":
-      "我们的应用目前处于研发阶段。在正式发布后，我们的应用可能会收集以下类别的信息：",
-    "pv.s3l1t": "设备信息",
-    "pv.s3l1d": "例如设备型号、操作系统版本、系统语言以及大致地区。",
-    "pv.s3l2t": "使用信息",
-    "pv.s3l2d": "例如您使用的应用功能以及一般的交互事件。",
-    "pv.s3l3t": "崩溃报告",
-    "pv.s3l3d": "应用异常退出时产生的诊断数据，用于定位和修复问题。",
-    "pv.s3l4t": "技术信息",
-    "pv.s3l4d": "例如应用版本、性能指标与网络状态。",
-    "pv.s3p2": "我们收集上述信息仅用于以下目的：",
-    "pv.s3u1": "提供并运营我们的服务",
-    "pv.s3u2": "优化应用性能与运行稳定性",
-    "pv.s3u3": "改善用户体验",
+      "在您安装并运行我们的移动游戏（包括《Tribe Defense: Monster Era》及我们旗下的其他游戏）时，应用会收集和处理以下必要类别的信息，以保障核心游戏功能正常运行：",
+    "pv.s3l1t": "设备与标识符信息",
+    "pv.s3l1d":
+      "设备型号、操作系统版本、系统语言、大致地区（基于 IP 的国家/地区级别，非精确 GPS 位置），以及用于应用分析、反作弊或广告归因的设备标识符（如 Google Advertising ID / GAID，用户可随时在系统设置中重置或关闭个性化广告）。",
+    "pv.s3l2t": "游戏进度与交互信息",
+    "pv.s3l2d":
+      "您的游戏关卡进度、角色与道具状态、本地存档及一般游戏内交互事件。",
+    "pv.s3l3t": "崩溃报告与诊断日志",
+    "pv.s3l3d":
+      "应用异常退出或卡顿时产生的崩溃堆栈与性能诊断数据，仅用于定位和修复程序错误。",
+    "pv.s3l4t": "应用内购买与交易记录（如适用）",
+    "pv.s3l4d":
+      "如果游戏包含应用内购买（IAP），所有支付过程均由 Google Play 结算系统（Google Play Billing）安全处理。我们不会收集或存储您的信用卡号或银行账户密码，仅接收由 Google Play 返回的非敏感订单验证码以向您发放游戏内虚拟物品。",
+    "pv.s3l5t": "基础技术与网络权限",
+    "pv.s3l5d":
+      "应用仅请求运行所必需的基础权限（如访问网络连接 INTERNET、查看网络状态 ACCESS_NETWORK_STATE），不会在未经您主动授权的情况下访问通讯录、麦克风、相机或精确位置等敏感权限。",
+    "pv.s3p2": "我们收集上述信息仅用于以下明确目的：",
+    "pv.s3u1": "提供、维护并运行游戏的核心玩法与存档同步",
+    "pv.s3u2": "优化游戏性能、修复程序崩溃并保障运行稳定性",
+    "pv.s3u3": "提供客户支持与处理用户请求",
     "pv.s3p3":
-      "我们不会为了出售信息而收集信息，也不会收集与上述目的无关的个人信息。",
+      "我们不会以出售为目的收集信息，也不会收集与上述目的无关的个人信息。",
 
-    "pv.s4t": "数据共享",
+    "pv.s4t": "数据共享与第三方服务",
     "pv.s4p1":
-      "我们不会出售用户的个人信息。我们不会将个人信息提供给第三方用于其自身的营销目的。仅在以下有限情形下，我们才可能披露相关信息：",
-    "pv.s4l1":
-      "与代表我们处理数据、并承担保密义务的服务提供商共享。",
-    "pv.s4l2": "适用法律、法规或有法律效力的程序要求时。",
-    "pv.s4l3": "为保护用户或公众的权利、安全与保障所必需时。",
+      "我们绝不会出售用户的个人信息，也不会为第三方自身的营销目的共享个人信息。仅在以下有限且合规的情形下，我们可能会共享必要的技术数据：",
+    "pv.s4l1t": "第三方基础服务提供商（SDK）",
+    "pv.s4l1d":
+      "为了实现游戏基础功能、崩溃分析或广告变现，我们的部分游戏可能会集成符合 Google Play 政策认证的第三方 SDK（例如：Google Play Services、Google Play Games Services、Firebase Crashlytics / Analytics 或 Google AdMob）。这些服务商严格按照其各自的隐私政策及 Google Play 数据安全要求处理受限的技术数据。",
+    "pv.s4l2t": "法律合规要求",
+    "pv.s4l2d": "适用法律、法规或具有法律效力的司法程序要求时。",
+    "pv.s4l3t": "安全与权益保护",
+    "pv.s4l3d":
+      "为防止欺诈、作弊，或保护用户及公众的合法权利与安全所必需时。",
     "pv.s4p2":
-      "在涉及上述共享时，我们会要求相关方按照本政策及适用的数据保护法律处理信息。",
+      "凡发生上述共享，我们均要求相关方按照本政策及适用的数据保护法律法规处理信息。",
 
     "pv.s5t": "儿童隐私",
     "pv.s5p1":
-      "我们的服务不面向 13 周岁以下的儿童（或您所在地区适用法律规定的更低年龄）。我们不会在知情的情况下收集儿童的个人信息。",
+      "我们的游戏与服务不面向 13 周岁以下的儿童（或您所在司法管辖区适用法律规定的最低年龄）。我们不会在知情的情况下收集儿童的个人信息。",
     "pv.s5p2":
-      "如果我们发现已收集了儿童的个人信息，将采取合理措施尽快删除。如您认为儿童向我们提供了个人信息，请通过本政策末尾的方式联系我们。",
+      "如果我们发现无意中收集了儿童的个人信息，将采取合理措施立即予以彻底删除。",
     "pv.s5p3":
-      "对于面向一般用户的应用，我们遵守适用的儿童隐私保护要求，包括 Google Play 家庭政策的相关规定。",
+      "如您认为儿童向我们提供了个人信息，请立即通过 1280046172cjl@gmail.com 联系我们。我们严格遵守 Google Play 家庭政策（Families Policy）及相关儿童隐私保护法规。",
 
     "pv.s6t": "数据安全",
     "pv.s6p1":
-      "我们采取合理的技术与组织措施，保护信息免遭未经授权的访问、篡改、披露或销毁。这些措施包括访问权限控制、在适当场景下对传输数据进行加密，以及定期审查我们的研发与运营流程。",
+      "我们采取合理的技术与组织措施保护信息免遭未经授权的访问、篡改、披露或销毁。相关措施包括访问权限控制、移动应用与服务器之间传输数据的 HTTPS/TLS 加密，以及对开发与运营流程的定期审查。",
     "pv.s6p2":
-      "但请注意，任何传输或存储方式都无法做到绝对安全，我们无法保证信息的绝对安全。",
+      "请注意，任何传输或存储方式都无法做到绝对安全，我们无法保证信息的绝对安全性。",
 
-    "pv.s7t": "联系我们",
+    "pv.s7t": "联系我们与数据删除",
     "pv.s7p":
-      "如果您对本隐私政策有任何疑问，或希望行使您的数据权利，请通过以下方式联系我们：",
+      "如果您对本隐私政策有任何疑问，或希望行使您的数据查询、更正或删除权利，请通过以下方式联系我们：",
+    "pv.s7h": "账号与数据删除说明",
+    "pv.s7o1t": "本地游戏数据删除",
+    "pv.s7o1d":
+      "您可以随时通过移动设备的“设置 → 应用管理 → 选择对应游戏（如 Tribe Defense: Monster Era）→ 清除存储空间 / 缓存”，或直接卸载本应用，立即删除存储在您设备本地的所有游戏进度与数据。",
+    "pv.s7o2t": "服务器及关联数据删除请求",
+    "pv.s7o2d":
+      "您也可以直接点击本页面底部的“账号与数据请求”链接，或发送邮件至 1280046172cjl@gmail.com（邮件标题请注明：“Data Deletion Request - 游戏名称”）。我们将在收到请求后的 7 个工作日内彻底删除与您相关的所有记录，并向您发送确认邮件。",
 
     /* ------------------------------- Terms -------------------------------- */
     "tm.title": "服务条款",
@@ -277,6 +302,28 @@
   var EN_TITLE = document.title;
   var EN_DESC = "";
   var currentLang = "en";
+
+  /* Language preference is remembered across pages and reloads.
+     Anything unreadable / blocked (e.g. file:// origin) falls back to English. */
+  var LANG_KEY = "sdt.lang";
+
+  function readStoredLang() {
+    try {
+      var v = window.localStorage.getItem(LANG_KEY);
+      return v === "zh" || v === "en" ? v : "en";
+    } catch (e) {
+      return "en";
+    }
+  }
+
+  function storeLang(lang) {
+    try {
+      window.localStorage.setItem(LANG_KEY, lang);
+    } catch (e) {
+      /* storage unavailable — language still applies for this page */
+    }
+  }
+
   function captureOriginal() {
     var nodes = document.querySelectorAll("[data-i18n]");
     for (var i = 0; i < nodes.length; i++) {
@@ -372,6 +419,7 @@
     var html = document.documentElement;
     html.setAttribute("lang", currentLang === "zh" ? "zh-CN" : "en");
     html.setAttribute("data-lang", currentLang);
+    storeLang(currentLang);
 
     applyText(currentLang);
     applySwitchState(currentLang);
@@ -466,12 +514,11 @@
     initHeader();
     initLang();
     initReveal();
-    setLang("en"); /* English is the default language on every load */
+    /* Restore the visitor's last choice; English when nothing is stored */
+    setLang(readStoredLang());
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", boot);
-  } else {
-    boot();
-  }
+  /* site.js is loaded at the very end of <body>, so the markup above is already
+     parsed — applying the language now avoids a flash of English before paint. */
+  boot();
 })();

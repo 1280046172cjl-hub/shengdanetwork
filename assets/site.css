@@ -1401,6 +1401,62 @@ h4 {
   font-weight: 600;
 }
 
+.legal-block h3 {
+  font-size: 1.02rem;
+  margin: 32px 0 12px;
+  color: #e8eefb;
+}
+
+.legal-block ol {
+  margin: 0 0 16px;
+  padding: 0;
+  list-style: none;
+  counter-reset: legal-ol;
+  display: grid;
+  gap: 12px;
+}
+
+.legal-block ol li {
+  position: relative;
+  padding-left: 30px;
+  color: var(--muted);
+  font-size: 15.5px;
+  line-height: 1.7;
+  counter-increment: legal-ol;
+}
+
+.legal-block ol li::before {
+  content: counter(legal-ol) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--brand);
+  font-variant-numeric: tabular-nums;
+}
+
+.legal-block code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.86em;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: rgba(91, 140, 255, 0.10);
+  border: 1px solid rgba(91, 140, 255, 0.22);
+  color: #c7d7ff;
+  word-break: break-all;
+}
+
+/* Secondary line inside an info cell (bilingual proper nouns) */
+.dd-alt {
+  display: block;
+  margin-top: 7px;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+
 .legal-note {
   border: 1px solid var(--line);
   border-radius: var(--radius);
